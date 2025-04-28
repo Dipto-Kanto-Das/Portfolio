@@ -257,6 +257,10 @@ section .title::after{
     color: crimson;
     background: none;
 }
+.highlight {
+    color: #0d5fdb; 
+    font-weight: bold;
+}
 
 /* services section styling */
 .services, .teams{
@@ -303,6 +307,14 @@ section .title::after{
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
+/* .serv-content flexbox */
+.serv-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px; 
+}
+
 
 /* skills section styling */
 
@@ -377,6 +389,25 @@ section .title::after{
 }
 .skills-content .right .mysql::before{
     width: 75%;
+}
+.more-content p {
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+.read-more-btn {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #ff6b6b;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+.read-more-btn:hover {
+    background-color: #e63946;
 }
 
 /* teams section styling */
